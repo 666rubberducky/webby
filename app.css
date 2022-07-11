@@ -48,11 +48,21 @@ body{
     transition: background-color 3s, box-shadow 0.25;
 }
 
+#links div:hover{
+    font-size: 45px;
+    text-shadow: 2px 1px 2px black;
+    transition: font-size ease-in-out 0.2s;
+    color:#f72738
+}
+
 #links div{
     height: 50px;
     width: 100px;
     margin: 15px;
-    display: inline-block;
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap:wrap;
     /* border: 1px solid black; */
 }
 
@@ -70,27 +80,40 @@ body{
     font-size: 45px;
     text-shadow: 2px 1px 2px black;
     transition: font-size ease-in-out 0.2s;
-    color:#f72738
+    color:#f72738;
+    cursor:pointer;
 }
 
-#discord{
-    font-size: 40px;
+#discord button{
+    font-size: 35px;
+    border: 0;
     color: #F45B69;
     text-shadow: 1px 1px 2px black;
+    background: none;
 }
 
-#fuckyou{
+#discord button:hover{
     font-size: 40px;
-    color: #F45B69;
-    text-shadow: 1px 1px 2px black;
-    text-align: center;
-}
-
-
-#links div:hover{
-    font-size: 45px;
     text-shadow: 2px 1px 2px black;
     transition: font-size ease-in-out 0.2s;
-    color:#f72738
+    color:#f72738;
+    cursor: pointer;
+}
+
+#hi button{
+    font-size: 35px;
+    border: 0;
+    color: #F45B69;
+    text-shadow: 1px 1px 2px black;
+    background: none;
+    margin: 0 auto;
+}
+
+#hi button:hover{
+    font-size: 40px;
+    text-shadow: 2px 1px 2px black;
+    transition: font-size ease-in-out 0.2s;
+    color:#f72738;
+    cursor: pointer;
 }
 
