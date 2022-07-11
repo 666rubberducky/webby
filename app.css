@@ -27,9 +27,11 @@ body{
 }
 
 #name a:hover{
+    box-shadow: 0 0.1em 0.5em -0.5em #ff00d4;
+    text-shadow: 2px 1px 2px black; 
     color: magenta;
     font-size: 80px;
-    transition: color 3s, font-size 0.7s;
+    transition: color 3s, font-size 0.7s, box-shadow 0.25s, text-shadow 0.2s;
 }
 
 
@@ -37,13 +39,13 @@ body{
     width: 400px;
     background-color: #A57982;
     border-radius: 2%;
-    transition: background-color 3s;
     /* padding: 50px; */
 }
 
 #links:hover{
     background-color: #EA9E8D;
-
+    box-shadow: 0 0.1em 0.5em -0.4em #ff00d4;
+    transition: background-color 3s, box-shadow 0.25;
 }
 
 #links div{
@@ -61,8 +63,14 @@ body{
 
 #github a{
     text-decoration: none;
-    color: #F45B69;
-    
+    color: #f05360;
+}
+
+#github a:hover{
+    font-size: 45px;
+    text-shadow: 2px 1px 2px black;
+    transition: font-size ease-in-out 0.2s;
+    color:#f72738
 }
 
 #discord{
@@ -81,6 +89,8 @@ body{
 
 #links div:hover{
     font-size: 45px;
-    transition: font-size ease-in-out 0.7s;
+    text-shadow: 2px 1px 2px black;
+    transition: font-size ease-in-out 0.2s;
+    color:#f72738
 }
 
