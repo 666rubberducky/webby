@@ -1,6 +1,8 @@
 body{
-    background-color: #CACF85;
+    background-color: #F0D3F7; 
 }
+
+/* #CACF85 */
 
 #name{
     font-size: 90px;
@@ -25,12 +27,24 @@ body{
 }
 
 #name a:hover{
-    color: #658e9c;
+    color: magenta;
     font-size: 80px;
     transition: color 3s, font-size 0.7s;
 }
 
 
+#links{
+    width: 400px;
+    background-color: #A57982;
+    border-radius: 2%;
+    transition: background-color 3s;
+    /* padding: 50px; */
+}
+
+#links:hover{
+    background-color: #EA9E8D;
+
+}
 
 #links div{
     height: 50px;
@@ -47,19 +61,21 @@ body{
 
 #github a{
     text-decoration: none;
-    color: magenta;
+    color: #F45B69;
+    
 }
 
 #discord{
     font-size: 40px;
-    color: magenta;
+    color: #F45B69;
     text-shadow: 1px 1px 2px black;
 }
 
 #fuckyou{
     font-size: 40px;
-    color: magenta;
+    color: #F45B69;
     text-shadow: 1px 1px 2px black;
+    text-align: center;
 }
 
 
