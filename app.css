@@ -1,0 +1,70 @@
+body{
+    background-color: #CACF85;
+}
+
+#name{
+    font-size: 90px;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    height: 120px;
+    width: 250px;   
+    /* border:1px solid black; */
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 635px;
+}
+
+#name a{
+    color: magenta;
+    text-shadow: 1px 1px 2px black; 
+    text-decoration: none;
+}
+
+#name a:hover{
+    color: #658e9c;
+    font-size: 80px;
+    transition: color 3s, font-size 0.7s;
+}
+
+
+
+#links div{
+    height: 50px;
+    width: 100px;
+    margin: 15px;
+    display: inline-block;
+    /* border: 1px solid black; */
+}
+
+#github{
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#github a{
+    text-decoration: none;
+    color: magenta;
+}
+
+#discord{
+    font-size: 40px;
+    color: magenta;
+    text-shadow: 1px 1px 2px black;
+}
+
+#fuckyou{
+    font-size: 40px;
+    color: magenta;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+#links div:hover{
+    font-size: 45px;
+    transition: font-size ease-in-out 0.7s;
+}
+
