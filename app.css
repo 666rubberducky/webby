@@ -1,5 +1,7 @@
 body{
-    background-color: #F0D3F7; 
+    background-color: #F0D3F7;
+    /* background: url("https://images.unsplash.com/photo-1610296669228-602fa827fc1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80"), #F0D3F7; */
+    
 }
 
 /* #CACF85 */
@@ -117,3 +119,16 @@ body{
     cursor: pointer;
 }
 
+/* #spam{
+    border: 1px solid black;
+    height: 50rem;
+    width: 94.3rem;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 220px;
+} */
+
+#money{
+    color: green;
+}
